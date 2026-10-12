@@ -1,34 +1,53 @@
-# Awesome-Customer-Portal [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-> A curated directory of leading SaaS Customer Portal platforms and open-source self-service helpdesk solutions.
+<img src="./assets/banner.svg" alt="Awesome Customer Portal Banner" width="100%" />
 
-A customer portal empowers users with self-service support workflows: submitting and tracking support tickets, searching searchable knowledge bases, participating in community forums, and managing account requests. Implementing a dedicated portal deflects repetitive support volume, speeds up resolution times, and ensures transparency.
+# 🌟 Awesome-Customer-Portal 🚀
 
----
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Portal/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Portal?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Portal/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Portal?style=flat-square&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Portal/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-## Table of Contents
+<p align="center">
+  <b>A curated catalog of premier SaaS Customer Portals, self-service knowledge bases, and open-source helpdesk solutions.</b>
+</p>
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Customer Portals](#saas--hosted-customer-portals)
-- [Open-Source Customer Portals & Helpdesks](#open-source-customer-portals--helpdesks)
-- [Architecture & Self-Hosting Stack](#architecture--self-hosting-stack)
-- [How to Choose](#how-to-choose)
-- [Contributing](#contributing)
-- [Disclaimer](#disclaimer)
-
----
-
-## Sector Overview & Market Dynamics
-
-The global customer self-service and support software market is estimated at **$18 billion to $27 billion** (with the broader customer service and CRM ecosystem exceeding **$55 billion**) and is expanding at an estimated **19%–22% CAGR**. The market exhibits a **moderately fragmented structure with strong top-tier consolidation**: incumbent enterprise CRM giants (Salesforce, HubSpot, Zendesk) dominate high-ACV enterprise accounts, while a vibrant and rapidly proliferating tier of specialized mid-market SaaS vendors and open-source self-hosted solutions thrive across privacy-conscious, SMB, and developer-centric organizations.
+</div>
 
 ---
 
-## SaaS & Hosted Customer Portals
+## 📖 Table of Contents
 
-The following table compares the top commercial customer portal and helpdesk SaaS solutions, sorted descending by company scale (market valuation / annual revenue).
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Customer Portals](#️-saas--hosted-customer-portals)
+- [🔓 Open-Source Customer Portals & Helpdesks](#-open-source-customer-portals--helpdesks)
+- [🏗️ Architecture & Self-Hosting Stack](#️-architecture--self-hosting-stack)
+- [⚖️ How to Choose: SaaS vs. Open-Source](#️-how-to-choose-saas-vs-open-source)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 Contributing](#-contributing)
+- [📜 Disclaimer](#-disclaimer)
 
-| Product / Platform | Company Scale (Valuation / Revenue) | Starting Pricing | Free Tier / Trial Limits | Key Features |
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global customer self-service and support software market is valued at **$18 billion to $27 billion** (with the broader customer service CRM ecosystem exceeding **$55 billion**) and is growing at an accelerated **19%–22% CAGR**. 
+
+Market concentration follows a **moderately fragmented yet top-consolidated distribution**: established cloud giants (Salesforce, HubSpot, Zendesk) dominate enterprise tiers, while an energetic ecosystem of specialized mid-market SaaS vendors and open-source self-hosted solutions thrive across privacy-conscious organizations, SMBs, and software engineering teams.
+
+---
+
+## ☁️ SaaS & Hosted Customer Portals
+
+The following comparison table presents premier commercial customer portal platforms, sorted descending by company scale (market valuation / revenue).
+
+| 🏢 Product / Platform | 💰 Company Scale (Valuation / Revenue) | 🏷️ Starting Pricing | 🎁 Free Tier / Trial Limits | ⚡ Key Features |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Salesforce Service Cloud](https://www.salesforce.com/)** | ~$280B Market Cap (~$38B Annual Revenue) | $25/user/month (Starter Suite, billed annually) | 30-day free trial (full Starter Suite feature access; no credit card required) | Enterprise Experience Cloud-powered customer portal, unified CRM ticketing, omni-channel case routing, and customizable knowledge base. |
 | **[HubSpot Service Hub](https://www.hubspot.com/)** | ~$32B Market Cap (~$2.6B Annual Revenue) | $15/seat/month (Starter tier, billed annually) | Free tier forever (up to 5 users, shared inbox, ticketing, 1 closed ticket automation, native reporting; 14-day trial for Professional) | Seamless CRM integration, customer portal with ticket tracking, knowledge base, feedback surveys, and omni-channel messaging. |
@@ -43,11 +62,11 @@ The following table compares the top commercial customer portal and helpdesk Saa
 
 ---
 
-## Open-Source Customer Portals & Helpdesks
+## 🔓 Open-Source Customer Portals & Helpdesks
 
-Self-hosted, transparent, and data-sovereign helpdesk and customer portal projects on GitHub. Sorted descending by GitHub stargazers.
+Self-hosted, transparent, and data-sovereign helpdesk and customer portal projects on GitHub. Sorted descending by GitHub stargazers count.
 
-| Project | Stars | Tech Stack | License | Description |
+| 📦 Project | ⭐ Stars | 🛠️ Tech Stack | 📄 License | 📝 Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Chatwoot](https://github.com/chatwoot/chatwoot)** | [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | Ruby on Rails, Vue.js | MIT | Omni-channel customer engagement platform with web live chat, help center knowledge base, multi-inbox management, and customer portal widgets. |
 | **[UVdesk](https://github.com/uvdesk/community-skeleton)** | [![Stars](https://img.shields.io/github/stars/uvdesk/community-skeleton?style=social&color=white)](https://github.com/uvdesk/community-skeleton/stargazers) | PHP (Symfony) | MIT | Modular open-source helpdesk system with a dedicated customer self-service portal, knowledge base, ticket management, and eCommerce connectors. |
@@ -70,7 +89,7 @@ Self-hosted, transparent, and data-sovereign helpdesk and customer portal projec
 
 ---
 
-## Architecture & Self-Hosting Stack
+## 🏗️ Architecture & Self-Hosting Stack
 
 For organizations deploying their own self-hosted customer portal infrastructure, popular architectural patterns include:
 
@@ -87,28 +106,48 @@ graph TD
 
 ---
 
-## How to Choose
+## ⚖️ How to Choose: SaaS vs. Open-Source
 
-| Criterion | SaaS Solutions | Open-Source Solutions |
+| 🧭 Criterion | ☁️ SaaS Solutions | 🔓 Open-Source Solutions |
 | :--- | :--- | :--- |
-| **Deployment Speed** | Instant setup with managed hosting and maintenance | Requires hosting infrastructure (Docker, VPS, Kubernetes) |
-| **Data Privacy & Sovereignty** | Data stored in vendor cloud (check GDPR/HIPAA compliance) | Complete control over database and customer PII |
-| **Pricing Predictability** | Scales per-seat/agent; can grow costly with large teams | Flat hosting costs regardless of operator or customer seat count |
-| **Customizability** | Theming via UI or CSS/JS widgets | Complete code-level access for custom themes, APIs, and plugins |
-| **Maintenance Burden** | Zero maintenance (handled by vendor) | Requires regular backups, security patch updates, and monitoring |
+| **🚀 Deployment Speed** | Instant setup with managed hosting and automatic maintenance | Requires hosting infrastructure (Docker, VPS, Kubernetes) |
+| **🔐 Data Privacy & Sovereignty** | Data stored in vendor cloud (check GDPR/HIPAA compliance) | Complete control over database and customer PII |
+| **💵 Pricing Predictability** | Scales per-seat/agent; can grow costly with large teams | Flat hosting costs regardless of operator or customer seat count |
+| **🎨 Customizability** | Theming via UI or CSS/JS widgets | Complete code-level access for custom themes, APIs, and plugins |
+| **🛠️ Maintenance Burden** | Zero maintenance (handled by vendor) | Requires regular backups, security patch updates, and monitoring |
 
 ---
 
-## Contributing
+## 📈 Star History
 
-Contributions are welcome! To add or update platforms:
-
-1. Fork the repository.
-2. Update [`README.md`](file:///C:/Users/ishan/Documents/Projects/Awesome-Customer-Portal/README.md) with factual data, official links, and GitHub star badges.
-3. Submit a pull request detailing your additions.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Customer-Portal&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Customer-Portal&type=date&legend=top-left)
 
 ---
 
-## Disclaimer
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using **Awesome-Customer-Portal**! ⭐
+
+If you find this repository valuable, please consider supporting the project:
+- 🌟 **Star the repository** to boost discoverability and help other developers.
+- 🍴 **Fork the repo** to contribute your own favorite tools, customizations, and portals.
+- 📢 **Share it** with fellow developers, DevOps teams, and customer support engineers!
+- ☕ **Buy a coffee & sponsor**: If this project saved you hours of research, feel free to sponsor ongoing maintenance via the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Every bit of encouragement and sponsorship keeps this open-source curation up-to-date and vibrant! 🙌
+
+---
+
+## 🤝 Contributing
+
+Contributions are warmly welcome! To add or update platforms:
+
+1. 🍴 Fork the repository.
+2. 📝 Update [`README.md`](file:///C:/Users/ishan/Documents/Projects/Awesome-Customer-Portal/README.md) with factual data, official links, and GitHub star badges.
+3. 🚀 Submit a pull request detailing your additions.
+
+---
+
+## 📜 Disclaimer
 
 This is a community-curated list compiled for educational and comparative purposes. Product pricing, limits, and feature sets change over time; please verify with each vendor's official website prior to making purchasing or infrastructure decisions.

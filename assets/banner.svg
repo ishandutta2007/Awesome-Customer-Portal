@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#101935" />
+      <stop offset="100%" stop-color="#070b14" />
+    </linearGradient>
+
+    <!-- Vibrant Accents -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 52px;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 21px;
+      fill: #94a3b8;
+    }
+    .tag-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #38bdf8;
+      letter-spacing: 0.5px;
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+
+    /* Dynamic / Animated elements positioned in background */
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.7; transform: scale(1.08); }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+      50% { transform: translateY(-18px) translateX(8px); opacity: 0.6; }
+      100% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+    }
+    @keyframes waveFlow {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 120; }
+    }
+    @keyframes pillFloat {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    .pulsing-orb {
+      transform-origin: center;
+      animation: pulseGlow 6s ease-in-out infinite;
+    }
+    .particle-1 { animation: floatParticle 8s ease-in-out infinite; }
+    .particle-2 { animation: floatParticle 6s ease-in-out infinite 1.5s; }
+    .particle-3 { animation: floatParticle 7s ease-in-out infinite 3s; }
+    .stream-line {
+      stroke-dasharray: 8 12;
+      animation: waveFlow 4s linear infinite;
+    }
+    .floating-card-1 { animation: pillFloat 5s ease-in-out infinite; }
+    .floating-card-2 { animation: pillFloat 5.5s ease-in-out infinite 1s; }
+  </style>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Subtle Grid Lines -->
+  <g opacity="0.12" stroke="#64748b" stroke-width="0.8">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="160" y1="0" x2="160" y2="360" />
+    <line x1="320" y1="0" x2="320" y2="360" />
+    <line x1="480" y1="0" x2="480" y2="360" />
+    <line x1="640" y1="0" x2="640" y2="360" />
+    <line x1="800" y1="0" x2="800" y2="360" />
+    <line x1="960" y1="0" x2="960" y2="360" />
+    <line x1="1120" y1="0" x2="1120" y2="360" />
+  </g>
+
+  <!-- Background Animated Glowing Orbs -->
+  <circle cx="1060" cy="80" r="130" fill="#38bdf8" opacity="0.16" filter="url(#glow)" class="pulsing-orb" />
+  <circle cx="150" cy="300" r="110" fill="#818cf8" opacity="0.14" filter="url(#glow)" class="pulsing-orb" />
+  <circle cx="980" cy="280" r="90" fill="#c084fc" opacity="0.12" filter="url(#glow)" class="pulsing-orb" />
+
+  <!-- Animated Data Stream Lines (Flowing in background) -->
+  <path d="M 750,220 C 880,180 940,300 1150,210" fill="none" stroke="url(#primaryGrad)" stroke-width="2.5" opacity="0.4" class="stream-line" />
+  <path d="M 820,100 C 950,50 1020,180 1180,90" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.3" class="stream-line" />
+
+  <!-- Floating Background Decorative Nodes -->
+  <g class="particle-1">
+    <circle cx="850" cy="70" r="5" fill="#38bdf8" />
+    <circle cx="780" cy="260" r="4" fill="#818cf8" />
+  </g>
+  <g class="particle-2">
+    <circle cx="940" cy="180" r="6" fill="#c084fc" />
+    <circle cx="1110" cy="140" r="4.5" fill="#38bdf8" />
+  </g>
+  <g class="particle-3">
+    <circle cx="720" cy="130" r="3.5" fill="#a855f7" />
+    <circle cx="1020" cy="270" r="5" fill="#818cf8" />
+  </g>
+
+  <!-- Decorative Feature Badges / Mini Cards (Right Side Background) -->
+  <g transform="translate(860, 110)" class="floating-card-1">
+    <rect width="250" height="48" rx="24" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.4" />
+    <circle cx="28" cy="24" r="11" fill="#38bdf8" fill-opacity="0.25" />
+    <path d="M 23 24 L 27 28 L 34 20" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round" />
+    <text x="50" y="29" class="badge-text">🎫 Ticket &amp; Case Portals</text>
+  </g>
+
+  <g transform="translate(890, 175)" class="floating-card-2">
+    <rect width="240" height="48" rx="24" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.4" />
+    <circle cx="28" cy="24" r="11" fill="#818cf8" fill-opacity="0.25" />
+    <path d="M 23 20 L 33 20 M 23 24 L 31 24 M 23 28 L 29 28" stroke="#818cf8" stroke-width="2" stroke-linecap="round" />
+    <text x="50" y="29" class="badge-text">📚 Self-Service Docs</text>
+  </g>
+
+  <g transform="translate(840, 240)" class="floating-card-1">
+    <rect width="270" height="48" rx="24" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.4" />
+    <circle cx="28" cy="24" r="11" fill="#c084fc" fill-opacity="0.25" />
+    <circle cx="28" cy="24" r="5" stroke="#c084fc" stroke-width="1.5" fill="none" />
+    <text x="50" y="29" class="badge-text">🚀 SaaS &amp; Open-Source</text>
+  </g>
+
+  <!-- FOREGROUND: Content Area (Clear, Crisp, Always in front) -->
+  <!-- Top Category Tag -->
+  <g transform="translate(70, 68)">
+    <rect width="186" height="30" rx="15" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.3" />
+    <text x="93" y="19" text-anchor="middle" class="tag-text">⭐ CURATED ECOSYSTEM</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="70" y="160" class="title">Awesome Customer Portal</text>
+
+  <!-- Subtitle -->
+  <text x="70" y="210" class="subtitle">Curated directory of SaaS platforms &amp; open-source self-service helpdesks</text>
+
+  <!-- Pill Highlights in Foreground -->
+  <g transform="translate(70, 255)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="138" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-width="1" stroke-opacity="0.15" />
+    <text x="69" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#cbd5e1">⚡ Omnichannel</text>
+
+    <!-- Pill 2 -->
+    <rect x="150" y="0" width="168" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-width="1" stroke-opacity="0.15" />
+    <text x="234" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#cbd5e1">🔒 Data Sovereign</text>
+
+    <!-- Pill 3 -->
+    <rect x="330" y="0" width="165" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-width="1" stroke-opacity="0.15" />
+    <text x="412.5" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#cbd5e1">💡 Knowledge Bases</text>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <rect x="0" y="356" width="1200" height="4" fill="url(#primaryGrad)" />
+</svg>
