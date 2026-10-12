@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Customer-Portal/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Portal?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Portal/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Portal?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-Portal/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Portal?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-Portal/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -66,7 +66,7 @@ The following comparison table presents premier commercial customer portal platf
 
 Self-hosted, transparent, and data-sovereign helpdesk and customer portal projects on GitHub. Sorted descending by GitHub stargazers count.
 
-| 📦 Project | ⭐ Stars | 🛠️ Tech Stack | 📄 License | 📝 Description |
+| 📦 Project | ⭐ GitHub_Stars | 🛠️ Tech Stack | 📄 License | 📝 Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Chatwoot](https://github.com/chatwoot/chatwoot)** | [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | Ruby on Rails, Vue.js | MIT | Omni-channel customer engagement platform with web live chat, help center knowledge base, multi-inbox management, and customer portal widgets. |
 | **[UVdesk](https://github.com/uvdesk/community-skeleton)** | [![Stars](https://img.shields.io/github/stars/uvdesk/community-skeleton?style=social&color=white)](https://github.com/uvdesk/community-skeleton/stargazers) | PHP (Symfony) | MIT | Modular open-source helpdesk system with a dedicated customer self-service portal, knowledge base, ticket management, and eCommerce connectors. |
@@ -143,7 +143,7 @@ Every bit of encouragement and sponsorship keeps this open-source curation up-to
 Contributions are warmly welcome! To add or update platforms:
 
 1. 🍴 Fork the repository.
-2. 📝 Update [`README.md`](file:///C:/Users/ishan/Documents/Projects/Awesome-Customer-Portal/README.md) with factual data, official links, and GitHub star badges.
+2. 📝 Update [`README.md`](file:///C:/Users/ishan/Documents/Projects/Awesome-Customer-Portal/README.md) with factual data, official links, and GitHub Stars_Badges.
 3. 🚀 Submit a pull request detailing your additions.
 
 ---
